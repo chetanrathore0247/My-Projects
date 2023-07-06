@@ -1,0 +1,35 @@
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+}
+
+.top > div {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.togglerBtn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
